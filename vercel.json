@@ -1,0 +1,16 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "redirects": [
+    {
+      "source": "/:path*",
+      "has": [
+        {
+          "type": "host",
+          "value": "www.karllota.com.br"
+        }
+      ],
+      "destination": "https://karllota.com.br/:path*",
+      "permanent": true
+    }
+  ]
+}
